@@ -1,4 +1,4 @@
-package com.gustavohenrique.cadastroclientes.infra;
+package com.gustavohenrique.cadastroclientes.security;
 
 import com.gustavohenrique.cadastroclientes.model.Users;
 import org.springframework.security.core.GrantedAuthority;

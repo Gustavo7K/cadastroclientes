@@ -1,8 +1,7 @@
-package com.gustavohenrique.cadastroclientes.infra;
+package com.gustavohenrique.cadastroclientes.security;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.security.oauth2.jwt.JwtClaimsSet;
 import org.springframework.security.oauth2.jwt.JwtEncoder;
 import org.springframework.security.oauth2.jwt.JwtEncoderParameters;
@@ -31,7 +30,7 @@ public class JwtService {
                 .issuer("cadastroclientes")
                 .issuedAt(now) //quando foi emitido
                 .expiresAt(now.plusSeconds(expiry))
-                .subject(authentication.getName()) //parei aqui
+                .subject(authentication.getName())
                 .claim("scope", scopes)
                 .build();
 
