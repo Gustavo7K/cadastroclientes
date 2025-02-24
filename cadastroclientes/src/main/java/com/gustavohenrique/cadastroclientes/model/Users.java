@@ -14,6 +14,10 @@ public class Users {
     private String email;
     private String senha;
 
+    public Users() {
+
+    }
+
     public Users(UUID id, String usuario, String email, String senha) {
         this.id = id;
         this.usuario = usuario;
