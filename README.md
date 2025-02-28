@@ -8,7 +8,7 @@
 - [API REST](https://www.ibm.com/br-pt/topics/rest-apis)
 - Injeção de Dependências
 - Consultas com Spring Data JPA
-- Autenticação de usuarios por [token](https://auth0.com/pt/learn/token-based-authentication-made-easy)
+- Autenticação de usuarios por [token](https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/jwt-token/)
 - Criptografia de senhas inseridas no cadastro
 - Tratamento de respostas de erros
 - Geração automática do Swagger utilizando a [OpenAPI 3](https://www.ibm.com/docs/pt-br/app-connect/13.0?topic=apis-openapi-30)
