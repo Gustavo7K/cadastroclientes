@@ -76,3 +76,7 @@ DELETE http://localhost:8080/bc8c4cb1-b315-4ed9-9afb-0ab74d8c8g35
   Usuario = usuarioSeguro
   Password = senhaSuperSegura
 ```
+
+## Projeto da API
+Aqui eu deixo algumas anotações do que eu pensei e aprendi antes, durante e depois de construir essa API, inclusive tambem um esquema que fiz antes de começar a codar toda a API.
+![img.png](cadastroclientes/IMGAPICadastroUsuarios.png)
